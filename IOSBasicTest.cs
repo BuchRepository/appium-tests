@@ -1,4 +1,3 @@
-using NUnit.Framework;
 using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.iOS;
 
@@ -32,7 +31,7 @@ public class IOSBasicTest
     public void OpenSettings()
     {
         Assert.That(driver.SessionId, Is.Not.Null);
-        Console.WriteLine("App launched ✔");
+        Console.WriteLine("iOS test");
     }
 
     [TearDown]
